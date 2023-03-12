@@ -1,5 +1,26 @@
 {
   "devDependencies": {
     "@types/node": "^18.15.0"
+  },
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Apleseeds ",
+  "type": "module",
+  "main": "Ex1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterNooblet/NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterNooblet/NodeJS/issues"
+  },
+  "homepage": "https://github.com/MisterNooblet/NodeJS#readme",
+  "dependencies": {
+    "chalk": "^5.2.0"
   }
 }
