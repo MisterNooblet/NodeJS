@@ -1,9 +1,5 @@
 import http from 'http'
 import fs from 'fs'
-import { dirname } from 'path';
-
-const usersDir = dirname('/userscrud')
-
 
 http.createServer((req, res) => {
     if (req.method !== 'GET') {
@@ -72,5 +68,3 @@ http.createServer((req, res) => {
 }).listen(8080, () => {
     console.log('Server running on port 8080');
 });
-
-console.log();
